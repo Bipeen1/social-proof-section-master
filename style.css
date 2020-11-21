@@ -1,0 +1,137 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    font-size: 15px;
+
+  }
+
+
+  h1 {
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+    width: 24rem;
+  }
+
+  
+  .top-desktop {
+    position: fixed;
+
+  }
+
+  .down-desktop {
+    position: absolute;
+    left: 15rem;
+    top: 8rem;
+  }
+
+  .top-container {
+    padding: 100px 100px;
+  }
+
+  .intro {
+    color: hsl(303, 10%, 53%);
+    width: 25rem;
+  }
+
+  .rating {
+    padding-top: 10px;
+  }
+
+  .rating-1 {
+    padding-top: 8px;
+    padding-left: 28px;
+    background-color: hsl(300, 24%, 96%);
+    width: 60%;
+    height: 2.5rem;
+    border-radius: 8px;
+    color: hsl(300, 43%, 22%);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .rating-2 {
+    padding-left: 25px;
+    background-color: hsl(300, 24%, 96%);
+    height: 2.5rem;
+    width: 65%;
+    margin-left: 10%;
+    border-radius: 8px;
+    font-size: 12px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    padding-top: 8px;
+    margin-top: 20px;
+  }
+
+  .rating-3 {
+    padding-left: 22px;
+    background-color: hsl(300, 24%, 96%);
+    height: 2.5rem;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 8px;
+    font-size: 12px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    padding-top: 8px;
+    margin-top: 20px;
+  }
+
+  .bottom-row {
+    margin-top: 40px;
+  }
+
+  .profile-card {
+    background-color: hsl(300, 43%, 22%);
+    color: #ffffff;
+    height: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .profile-img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+
+  .profile {
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+
+  }
+
+  .verified {
+    color: hsl(333, 80%, 67%);
+  }
+
+  .profile-desc {
+    padding-left: 20px;
+    padding-right: 18px;
+    
+  }
+
+  .profile-2 {
+    margin-top:20px ;
+  }
+
+  .profile-3 {
+    margin-top:40px ;
+  }
+
+  @media screen and (max-width:375px){
+      .profile{
+       width:200px;
+      }
+  }
